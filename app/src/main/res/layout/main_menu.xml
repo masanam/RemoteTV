@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Control_1">
+
+    <ToggleButton
+        android:id="@+id/tb_1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_alignParentTop="true"/>
+
+    <ToggleButton
+        android:id="@+id/tb_2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/tb_1"
+        android:layout_below="@+id/tb_1"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_marginTop="22dp"/>
+
+    <ToggleButton
+        android:id="@+id/tb_3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/tb_2"
+        android:layout_below="@+id/tb_2"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_marginTop="22dp"/>
+
+    <ToggleButton
+        android:id="@+id/tb_4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/tb_3"
+        android:layout_below="@+id/tb_3"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/tv_Status"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/tb_4"
+        android:layout_below="@+id/tb_4"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:shadowColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/tv_B1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb_1"
+        android:layout_alignBottom="@+id/tb_1"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/tb_1"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tv_B2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb_2"
+        android:layout_alignBottom="@+id/tb_2"
+        android:layout_alignLeft="@+id/tv_B1"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tv_B3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb_3"
+        android:layout_alignBottom="@+id/tb_3"
+        android:layout_alignLeft="@+id/tv_B2"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/tv_B4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tb_4"
+        android:layout_alignBottom="@+id/tb_4"
+        android:layout_alignLeft="@+id/tv_B3"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</RelativeLayout>

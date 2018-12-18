@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Android Remote TV!</string>
+    <string name="app_name">Android Remote TV</string>
+    <string name="app_title">TV Socket Setting</string>
+    <string name="otherLabel">Android  Remote  Control</string>
+	<string name="btn_tv">Android TV Connect ...</string>
+    <string name="menu_settings">Setting  Remote  Control</string>
+    <string name="exit">Exit</string>
+</resources>
